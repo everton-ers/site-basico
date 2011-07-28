@@ -1,0 +1,596 @@
+/*body {font-family: sans-serif;
+      font-weight: normal;
+	background-color: white;
+	width: 780px;
+	}
+*/
+
+
+a:link {color: blue;
+	text-decoration: none;}
+
+a:visited {color: blue;
+	text-decoration: none;}
+
+a:hover {color: orange;
+	text-decoration: underline;}
+
+div#centro {text-align:justify}
+
+div#rodape {text-align:justify}
+
+
+/* abaixo nao estou usando */
+
+
+
+
+
+div#intro {padding-top: .1ex;}
+div#section {background-color: #00FF00;
+          margin-top: 0pt; margin-bottom: 0pt; 
+          border-top: 0pt; border-bottom: 0pt; 
+          padding-top: 0pt; padding-bottom: 0pt}
+.subhead {color: #636b72;
+	padding-top: .6em;
+	font-style: oblique;}
+
+div#footer {background-color: white;
+	color: #606060;
+	border-top: 1px;
+	padding-top: 1em;
+	font-style: italic;
+	font-size: 91%;}
+table.page_foot tr td.left {text-align: left;}
+table.page_foot tr td.right {text-align: right;}
+span#footer_author {text-align: left;}
+span#footer_home {text-align: right;}
+p.indexNote {
+	font-size: 91%;
+	color: #606060;
+    	}
+
+div#footer {background-color: white;
+	color: #606060;
+	border-top: 1px;
+	padding-top: 1em;
+	font-style: italic;
+	font-size: 91%;}
+span#footer_author {text-align: left;}
+span#footer_middle {text-align: center;}
+span#footer_home {text-align: right;}
+
+.lion {border-style: none;}
+.masthead {border-style: none;
+  padding-bottom: 10px;}
+img {margin-top: 0pt; margin-bottom: 0pt; 
+     border-top: 0pt; border-bottom: 0pt;
+     padding-top: 0pt; padding-bottom: 0pt}
+	 
+/* a:link {text-decoration: underline}*/
+
+code {font-size: 91%;}
+.warning {color: red;
+	}
+
+.diff {background-color: #CCFFFF;
+  border: 1px solid black;} 
+table.diff td {padding-left: 3px;
+  padding-right: 3px}
+.diff_add {background-color: white;
+  color: red;} 
+
+
+
+
+pre.filelisting {background-color: #F0F0F0;
+      	font-size: 91%;
+	font-family: monospace;
+	}
+
+span.mirrorSectionHeader {
+  color: black;
+  background-color: #d3e5f3;
+}
+
+table.subdirlist {margin-left: 0px;
+	font-size: 91%;
+}
+table.subdirlist td, table.subdirlist th {padding: 0ex 1em}
+td.subdirname {padding: 0px 0in 0px 0px} 
+th.subdirlist_name {width: 15%;
+	text-align: center
+} 
+th.subdirlist_date {width: 5%;
+	text-align: center
+} 
+th.subdirlist_desc {width: 80%; 
+	text-align: left
+} 
+td.subdirlist_name {width: 15%; 
+	text-align: left
+} 
+td.subdirlist_date {width: 5%; 
+	text-align: left
+} 
+td.subdirlist_desc {width: 80%;
+	text-align: left
+} 
+table.filelist td, table.filelist th {padding: 0ex 1em;
+	font-size: 91%;
+}
+th.filelist_name {width: 15%;
+	text-align: center;
+}
+th.filelist_date {width: 5%;
+	text-align: center;
+}
+th.filelist_size {width: 10%;
+	text-align: center;
+}
+th.filelist_download {width: 5%;
+	text-align: center;
+}
+th.filelist_view {width: 5%;
+	text-align: center;
+}
+th.filelist_description {
+	text-align: left;
+}
+td.filelist_name {width: 15%}
+td.filelist_date {width: 5%}
+td.filelist_size {width: 10%;
+	text-align: right;
+}
+td.filelist_download {width: 5%;
+	text-align: center;
+}
+td.filelist_view {width: 5%;
+	text-align: center;
+}
+td.filelist_description {
+	text-align: left;
+}
+
+table.searchResult td, table.searchResult th {padding: 0ex 1em;
+	font-size: 91%;
+}
+th.searchResult_number {width: 5%;
+	text-align: center;
+}
+th.searchResult_name {width: 10%;
+	text-align: center;
+}
+th.searchResult_filename {width: 10%;
+	text-align: center;
+}
+th.searchResult_caption {width: 75%;
+	text-align: center;
+}
+td.searchResult_number {width: 5%;
+	text-align: right;
+}
+td.searchResult_name {width: 10%;
+	text-align: left;
+}
+td.searchResult_filename {width: 10%;
+	text-align: left;
+}
+td.searchResult_caption {width: 75%;
+	text-align: left;
+}
+
+p.idlistquicklinks {padding-bottom: .0ex;
+	}
+table.idlist {background-color: #C3D4E1;
+	      margin-right: 3px;
+              width: 100%;}
+table.idlist tr.evenrow td {background-color: #e0e0e0;}
+table.idlistfirstchar {width: 100%;}
+table.idlistfirstchar td.idlistfirstcharsubmit {text-align: right;}
+
+span.authorhtmllist {width: 98%;
+  	margin-left: 2%}
+span.authorhtmllist * td {font-size: 91%;}
+table.authorlistfirstchar {width: 98%;
+	margin-left: 2%;}
+td.authorlistfirstchartext {text-align: left;
+	font-weight: bold;}
+td.authorlistfirstcharsubmit {text-align: right;}
+table.authorlist {width: 98%;
+  	margin-left: 2%}
+table.authoredittable {
+	margin-left: 2%;}
+table.authoredittable * td {font-size: 91%;
+	padding-left: 4px;}
+tr.authoredittablehead {text-align: center;
+	font-size: 91%;
+	font-variant: small-caps;
+	font-weight: bold;}
+table.firstletter {padding-right: 4in;
+/*	        background-color: royalblue;*/
+/* not always known by name*/
+		background-color: #4169e1;
+                color: white;
+	        font-size: 91%;
+                width : 100%}
+td.firstlettersubmit {width: 10%;
+	text-align: right;
+        color: red}
+
+h3.editpackagehead {background-color: #125a70;
+		    font-family: sans-serif;
+	            font-weight: bold;
+	            color: white}
+table.status {
+	border-collapse: separate;
+	}
+table.status th {font-style: italic;
+	font-weight: normal;
+	}
+table.status td {
+	font-size: 91%;
+	padding-left: 4px;}
+.editpackageentry {margin-left: 4px;
+        }
+table.status td table {display: table-cell;
+        border-collapse: separate;
+        margin-bottom: 0px;
+        }
+table.status td table td {
+        margin-bottom: 0px;
+      padding-bottom: 0px;
+        }
+
+
+ul.packageinfolist {margin-right: 5%;
+	font-size: 91%;
+	list-style-type: circle;}
+ul.packageinfolist li {line-height: .3in;}
+.packageinfoitem {font-variant: small-caps;
+	font-weight: bold;
+	padding-right: .7em;}
+.packageinfodata {font-size: 91%;}
+
+table.caption {font-size: 91%;
+	vertical-align: top;
+	}
+table.caption th {font-style: italic;
+	font-size: 91%;
+	font-weight: normal;
+	padding-right: 6px;
+	text-align: left;
+	}
+table.caption td {vertical-align: middle;
+	text-align: left;
+	padding-right: 6px;}
+
+table.description {font-size: 91%;
+	}
+table.description th {font-style: italic;
+	font-weight: normal;
+	font-size: 91%;
+	padding-right: 6px;
+	text-align: left;
+	}
+table.description td {vertical-align: middle;
+	padding-right: 6px;}
+
+table.distribution {
+        border-collapse: collapse;
+        border: 1px solid;
+        border-color: white;
+      }
+table.distribution th {
+        width: 30%;
+        border: 1px solid;
+        border-color: white;
+        font-variant: small-caps;
+        font-weight: normal;
+      text-align: center;
+        padding-right: 6px;
+        }
+table.distribution td {
+        border: 1px solid;
+        border-color: white;
+        vertical-align: middle;
+        padding-right: 6px;}
+.packageinfolist table {background-color: #d3e5f3;}
+.packageinfolist table th {background-color: #C3D4E1;}
+
+.attributeentry {
+	font-size: 91%;
+	margin-left: 10px;}
+.attributeentry th {
+	font-style: italic;
+	font-weight: normal;
+	font-size: 91%;
+	background-color: #c3d4e1;
+	padding-right: 6px;
+	text-align: left;}
+.attributeentry td {
+	font-weight: normal;
+	font-size: 91%;
+	background-color: #ffffff;
+	padding-right: 6px;
+	text-align: left;
+	font-family: monospace;}
+
+table.keywordlist {background-color: #d3e5f3;}
+table.keywordlist tr.evenrow td {background-color: #e0e0e0;}
+.extraKeywords {
+    text-align: center;
+}
+
+table.byfunctionlist {background-color: #d3e5f3;
+	font-size: 91%;}
+table.byfunctionlist tr.evenrow td {background-color: #e0e0e0;}
+
+table.packagedescription {
+	      width: 100%;
+	      margin-right: 3px;
+	      font-family: verdona, sans-serif;
+              font-size: 91%;
+              font-weight: normal;
+	      background-color: #d3e5f3;
+	}
+
+table.packagedescription tr.editmainpageheadrow th {
+	background-color: #9ba9b3;
+	font-style: italic;
+}
+table.packagedescription th.attribute {
+	width: 20%;}
+table.packagedescription th.edit {
+	width: 10%;}
+table.packagedescription th.value {
+	width: 70%;}
+table.packagedescription td {
+      vertical-align: middle;
+      }
+
+tr.oddrow {background-color: #ffffff;}
+tr.evenrow {background-color: #E0E0E0;}
+
+table.ctanPackage {margin: .5em;
+  padding: 0pt;
+  width: 100%;
+  font-family: sans-serif;
+  font-weight: normal;
+  }
+table.ctanPackage tr td.key{
+      vertical-align: middle;
+      padding-right: 10px;
+  }
+table.ctanPackage tr td.value{
+      vertical-align: middle;
+  }
+table.authors {
+  border-collapse: collapse;
+}
+table.authors th {
+  width: 25%;
+  border-collapse: collapse;
+  border: 1px solid;
+  border-color: white;
+  font-weight: normal;
+  font-variant: small-caps;
+}
+table.authors td {
+  border-collapse: collapse;
+  border: 1px solid;
+  border-color: white;
+}
+
+
+.index_top {padding-top: 1.15in;}
+#index_updates {background-color: #E0E0E0;
+	padding-top: 0px;
+	margin-left: .5em;
+	margin-right: .5em;
+}
+
+.lion_top {clear: left;
+	padding-top: 8px;}
+
+ul.updates {margin-left: 0em;
+	padding-left: 0em;}
+ul.updates li {text-indent: -2em; margin-left: 2em;
+	margin-bottom: .5ex;
+	list-style-type: none;}
+span.update_topic {font-style: italic;
+	padding-right: 0.7em;}
+
+
+
+
+table.packageList {	      
+	      width: 100%;
+	      font-family: verdona, sans-serif;
+              font-size: 91%;
+              font-weight: normal;
+	      background-color: #d3e5f3;
+	}
+table.packageList tr.packageList_head {
+	      background-color: #9ba9b3;
+	}
+table.packageList th.name {width: 20%;
+	text-align: center;
+	padding-left: 1em;
+}
+table.packageList th.caption {width: 80%;
+	text-align: center;
+	padding-left: 1em;
+}
+table.packageList td.name {width: 20%;
+	text-align: left;
+	padding-left: 1em;
+}
+table.packageList td.caption {width: 80%;
+	text-align: left;
+	padding-left: 1em;
+}
+
+table.packagedescription tr.editmainpageheadrow th {
+	background-color: #9ba9b3;}
+pre.description {
+	font-family: sans-serif;
+	font-weight: normal;
+	margin: 0px;}
+
+#text_top {padding-top: 1.15in;} 
+.masthead {}
+
+/* ul li {text-indent: -2em; margin-left: 2em;
+	list-style-type: none;} */
+.documentation_category {clear: none;
+	margin-top: 10pt;}
+.item {font-style: italic;
+	padding-right: .4em;}
+
+.index_top h2 {text-indent: -2em; margin-left: 2em;}
+
+#glossary_body ul li {text-indent: -2em; margin-left: 2em;
+	font-size: 91%;
+	list-style-type: none;}
+.glossary_ucletterlink {padding-right: .35em;}
+.glossary_itemhead {font-style: italic;
+	padding-right: .7em;}
+.glossary_itembody {}
+
+pre.filename_search_hits {background-color: #F0F0F0;
+      	font-size: 91%;
+	line-height: 150%;
+	margin: 4px;
+	}
+
+table.get_file_filelist {
+	margin-left: 10px;
+	}	
+
+ul.main_list {margin-left: 1em;
+	padding-left: 0em;
+        }
+ul.main_list li {/* text-indent: -2em; */ 
+        margin-left: 2em;
+	margin-bottom: .4ex;
+	list-style-type: bullet;	
+	}	
+span.list_topic {font-style: italic;
+	padding-right: 0.7em;}
+table.main_table {margin-left: 2em;
+	font-size: 91%;
+	vertical-align: top;
+	background-color: #9ba9b3;
+}
+table.main_table td.key {text-align: right;
+}
+table.main_table td.value {text-align: left;
+}
+p.footnote {font-size: 91%;
+}
+p.note{
+	font-size: 80%;
+}
+.required {color: green;}
+
+ul.large_points {
+	margin-left: 0em;
+	padding-left: 0em;
+	text-indent: 0em;
+}
+ul.large_points li {
+	text-indent: 0em; 
+        margin-left: 0em;
+	margin-bottom: 1.5ex;
+	list-style-type: none;}
+ul.large_points li p {
+	margin-top: 1ex;
+	text-indent: 0em;
+}
+span.large_point {
+	color: #636b72;
+	padding-right: .5em;
+	font-style: italic;
+	font-weight: bold;	
+}
+
+ul.list_points {
+	margin-top: 1.5ex;
+	margin-left: 0em;
+	text-indent: 0em;
+}
+ul.list_points li {text-indent: -2em; margin-left: 0em;
+	list-style-type: none;}
+ul.list_points li p {
+	text-indent: 0em;
+}
+span.list_point {
+	padding-right: .5em;
+	font-style: italic;	
+}
+
+table.grouping {
+  margin-left: 1.2em;
+}
+span.caption {
+  padding-left: 0em;
+}
+
+dt:after {
+	content: ":";
+}
+
+dt {
+	float: left;	/* Keeps the dt and dd on one line */
+	clear: both;	/* forces a new line */
+	width: 15em;
+	margin-right: 10px;
+}
+
+dd {
+/*	font-family: Courier;*/
+}
+
+dd.block {
+	float: left;
+	white-space: pre;
+}
+
+p.thankyou {
+	font-weight: bold;
+}
+
+span.blockquote {
+  display: block;
+  margin-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+div#foot {
+  padding-top: 10px;
+  border-top: 2px solid #aaaaaa;
+}
+
+div#foot p {
+  float: left;
+  width: 75%;
+}
+
+div#foot p#w3c {
+  float: right;
+  width: 25%;
+}
+
+div.spacer {
+  clear: both;
+}
+
+p#w3c img {
+  border: 0;
+}
+
+
+
+
